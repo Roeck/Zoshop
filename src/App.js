@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import Home from './components/Routes/Home/Home';
-import Navbar from './components/Routes/Navbar/Navbar';
-import SignIn from './components/SignIn/SignIn';
+import Home from './routes/Home/Home';
+import Navbar from './routes/Navbar/Navbar';
+import SignIn from './routes/SignIn/SignIn';
 
 const Shop = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { Fragment } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
-import { ReactComponent as Logo } from '../../../assets/logo.svg';
+import { ReactComponent as Logo } from '../../assets/logo.svg';
 
 import './navbar.styles.scss';
 
