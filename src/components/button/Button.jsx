@@ -5,7 +5,6 @@ const Button = ({ children, buttonType, ...otherProps }) => {
   return (
     <button className="button" {...otherProps} >
       {children}
-      Sign Up
     </button>
   );
 };
