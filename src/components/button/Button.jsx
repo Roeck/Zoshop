@@ -1,7 +1,7 @@
 import React from 'react';
-import './button.styles.scss';
+import './Button.styles.scss';
 
-const Button = ({ children, buttonType, ...otherProps }) => {
+const Button = ({ children, ...otherProps }) => {
   return (
     <button className="button" {...otherProps} >
       {children}
