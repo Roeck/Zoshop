@@ -5,14 +5,17 @@ import { Outlet, Link } from 'react-router-dom';
 import Cart from '../../components/Cart/Cart';
 import Dropdown from '../../components/Dropdown/Dropdown';
 
-import { ReactComponent as Logo } from '../../assets/logo.svg';
-import {userContext,UserContext} from '../../contexts/User.context';
+import { UserContext } from '../../contexts/User.context';
+import { CartContext } from '../../contexts/Cart.context';
 
+import { ReactComponent as Logo } from '../../assets/logo.svg';
 import { signOutUser } from '../../utils/firebase/firebase';
+
 import './navbar.styles.scss';
 
 const Navbar = () => {
   const { currentUser } = useContext(UserContext);
+  const { isCartOpen } = useContext(CartContext);
   
   return (
     <Fragment>
@@ -33,7 +36,7 @@ const Navbar = () => {
           )}
           <Cart />
         </div>
-        <Dropdown />
+        {isCartOpen && <Dropdown />}
       </div>
       <Outlet />
     </Fragment>
