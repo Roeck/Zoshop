@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  background-color: #b0b0b081;
+  background-image: linear-gradient(to bottom right, #79797980 , #2e2e2e50);
+
 
   .logo {
     padding: 3px;
@@ -28,9 +29,8 @@
       &:hover {
         color: #d0d0d0;
         opacity: 0.6;
-  transition: 0.4s;
+        transition: 0.4s;
       }
-
     }
   }
 }

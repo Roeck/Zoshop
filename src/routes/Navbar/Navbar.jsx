@@ -2,6 +2,9 @@ import React from 'react';
 import { Fragment, useContext } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
+import Cart from '../../components/Cart/Cart';
+import Dropdown from '../../components/Dropdown/Dropdown';
+
 import { ReactComponent as Logo } from '../../assets/logo.svg';
 import {userContext,UserContext} from '../../contexts/User.context';
 
@@ -28,7 +31,9 @@ const Navbar = () => {
             SIGN IN
           </Link>
           )}
+          <Cart />
         </div>
+        <Dropdown />
       </div>
       <Outlet />
     </Fragment>
