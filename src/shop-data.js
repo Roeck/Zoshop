@@ -30,7 +30,7 @@ const SHOP_DATA = [
         id: 5,
         name: 'ThinkPad X1 Carbon Gen 9 Intel (14")',
         imageUrl: 'https://p4-ofp.static.pub/fes/cms/2022/03/17/yb2uto1upbz6vgf6go5hkiineppsbe780942.png',
-        price: 1.475.40,
+        price: 1.475,
       },
       {
         id: 6,
@@ -100,7 +100,7 @@ const SHOP_DATA = [
         id: 20,
         name: 'Logitech Pop Keys Wireless',
         imageUrl: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRsuLIkxqRsTmHVs0VhlLuHvNGUBKJ83As3tgkbrsEt3Y6_YsMdKwG1ZT3imgCUyhQCVykeZF7GF448_MZHE-sQLcF7i8mfGg&usqp=CAY',
-        price: 99,99,
+        price: 99.99,
       },
       {
         id: 21,
