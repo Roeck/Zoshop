@@ -10,18 +10,18 @@ const Shop = () => {
     
     return (
         <Fragment>
-            {Object.keys(categoriesMap).map((title) => (
-                <Fragment key={title}>
-                    <h2>{title}</h2>
-                    <div className='products-container'>
-                        {categoriesMap[title].map((product) => (
+         {Object.keys(categoriesMap).map((title) => (
+            <Fragment key={title}>
+                <h2>{title}</h2>
+                 <div className='products-container'>
+                    {categoriesMap[title].map((product) => (
                         <Card key={product.id} product={product} />
-                        ))}
-                    </div>
-                </Fragment>
-            ))}
+                    ))}
+                 </div>
+            </Fragment>
+         ))}
         </Fragment>
-  );
-}
+    );
+};
 
 export default Shop;

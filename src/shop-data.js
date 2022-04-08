@@ -18,7 +18,7 @@ const SHOP_DATA = [
         id: 3,
         name: 'Surface Pro 8',
         imageUrl: 'https://m.media-amazon.com/images/I/71lgiPnaGvL._AC_SL1500_.jpg',
-        price: 35,
+        price: 599.99,
       },
       {
         id: 4,
@@ -30,7 +30,7 @@ const SHOP_DATA = [
         id: 5,
         name: 'ThinkPad X1 Carbon Gen 9 Intel (14")',
         imageUrl: 'https://p4-ofp.static.pub/fes/cms/2022/03/17/yb2uto1upbz6vgf6go5hkiineppsbe780942.png',
-        price: 1.475,
+        price: 475.40,
       },
       {
         id: 6,
@@ -57,9 +57,9 @@ const SHOP_DATA = [
       },
       {
         id: 12,
-        name: 'OptiPlex 3280 All-in-One',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 679.00,
+        name: 'HP Slim S01-aF0026b',
+        imageUrl: 'https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/4459552/4459552_o01/4459552_o01',
+        price: 539.99,
       },
       {
         id: 13,
@@ -151,9 +151,9 @@ const SHOP_DATA = [
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45,
+        name: 'R1280T',
+        imageUrl: 'https://cdn.ventmere.com/edifier-dev/uploads/2019-03/edifier-r1280t_r1tMM9KDN.jpg',
+        price: 109.99,
       },
       {
         id: 28,
