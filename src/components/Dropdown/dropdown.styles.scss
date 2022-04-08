@@ -6,7 +6,10 @@
   flex-direction: column;
   padding: 20px;
   border: 1px solid #f5f5f567;
-  background-color: rgba(255, 255, 255, 0.091);
+   background: #0f0e136e;
+  box-shadow: 0 4px 30px #00000033;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   top: 90px;
   right: 40px;
   z-index: 5;
