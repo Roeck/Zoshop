@@ -13,12 +13,9 @@ export const GlobalStyle = createGlobalStyle`
         background-size: cover;
     }
 
-    code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+    * {
+        font-family: 'Montserrat', sans-serif;
     }
 
-    h1 {
-    color: white;
-    }
+    
 `;

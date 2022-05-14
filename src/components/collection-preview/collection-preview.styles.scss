@@ -7,7 +7,7 @@
     align-items: center;
   }
 
-   .title {
+  .title {
     font-size: 28px;
     margin-bottom: 25px;
     cursor: pointer;
@@ -24,7 +24,7 @@
   .preview {
     display: flex;
     justify-content: space-between;
-    
+
 
     @media screen and (max-width: 800px) {
       display: grid;

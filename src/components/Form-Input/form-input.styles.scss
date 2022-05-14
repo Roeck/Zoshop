@@ -12,7 +12,7 @@ $main-color: black;
   margin: 45px 0;
 
   .form-input {
-   background: none;
+    background: none;
     background-color: white;
     color: $sub-color;
     font-size: 18px;
@@ -27,7 +27,7 @@ $main-color: black;
       outline: none;
     }
 
-    &:focus ~ .form-input-label {
+    &:focus~.form-input-label {
       @include shrinkLabel();
     }
   }
